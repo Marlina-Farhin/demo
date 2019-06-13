@@ -1,14 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "publishers": [{
+    "id": 3,
+    "publisher_key": "11a694e63fae428c9546823e17a34cb5",
+     "created_date": "2019-05-09T02:42:31.000Z",
+     "username": "publishers5_test@gmail.com",
+     "revenue_model": "VOLUME_BASED",
+     "contracts": [
+       {
+        "metric": "AVERAGE_DAU",
+        "cpm": "5",
+        "country_codes": [
+           {
+              "country_code": "AD"
+           },
+           {
+              "country_code": "AE"
+           },
+           {
+              "country_code": "AF"
+           },
+           {
+              "country_code": "AG"
+           },
+           {
+              "country_code": "AI"
+           },
+        ],
+        "country_code_short_name": "Global"
+       }
+     ]
+  }, {
+    "id": 4,
+    "publisher_key": "11a694e63fae428c9546823e17a34cb5",
+     "created_date": "2019-05-09T02:42:31.000Z",
+     "username": "publishers5_test@gmail.com",
+     "revenue_model": "VOLUME_BASED",
+     "contracts": [
+       {
+        "metric": "AVERAGE_DAU",
+        "cpm": "5",
+        "country_codes": [
+           {
+              "country_code": "AD"
+           },
+           {
+              "country_code": "AE"
+           },
+           {
+              "country_code": "AF"
+           },
+           {
+              "country_code": "AG"
+           },
+           {
+              "country_code": "AI"
+           },
+        ],
+        "country_code_short_name": "Global"
+       }
+     ]
+    }
+  ]
 }
